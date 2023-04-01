@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Fond*/
+
+body{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+/*carre contoure*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 60px;
+    box-shadow: 0 0 100px rgba(0,0,0,0.2);
+}
+
+/*taille connexion*/
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*espace connexion et barre*/
+
+
+hr {
+    margin: 5px;
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+
+
+
+
+.name-field {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+
+.name-field div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.name-field div input{
+    width: 50%;
+}
+
+
+/*espace case et adresse mail mdp*/
+
+label{
+    margin-bottom: 7px;
+}
+
+
+
+/*Milieu*/
+
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0;
+    border: 2px solid rgba(0,0,0,0.5);
+}
+
+
+/*contoure carré*/
+
+
+input:focus{
+    border: 3px solid #000;
+}
+
+
+/*espace mdp connxion*/
+
+
+input[type="submit"]{
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 10px solid #000;
+    cursor: pointer;
+}
+
+
+/*vousn'avez pas de compte*/
+
+p {
+    text-align: center;
+    margin: 20px ;
+    font-size: 16px;
+}
